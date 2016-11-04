@@ -75,7 +75,6 @@ hi PreCondit       guifg=#A6E22E               gui=bold
 hi PreProc         guifg=#A6E22E
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
-" FIXME: hi Search          guifg=#000000 guibg=#C4BE89
 hi Search          guifg=#000000 guibg=#FFE792
 " marks
 hi SignColumn      guifg=#A6E22E guibg=#232526
@@ -193,7 +192,6 @@ if &t_Co > 255
    hi PreProc         ctermfg=118
    hi Question        ctermfg=81
    hi Repeat          ctermfg=161               cterm=bold
-" FIXME:   hi Search          ctermfg=16 ctermbg=193
    hi Search          ctermfg=0   ctermbg=222   cterm=NONE
 
    " marks column
